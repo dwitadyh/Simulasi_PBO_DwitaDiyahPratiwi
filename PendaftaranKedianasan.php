@@ -24,7 +24,8 @@ class PendaftaranKedinasan extends Pendaftaran {
 
     // Implementasi wajib dari abstract method induk
     public function hitungTotalBiaya() {
-        return $this->biayaPendaftaranDasar; // Nanti bisa ditambah biaya operasional kedinasan
+    // Dikenakan surcharge/biaya tambahan administrasi khusus sebesar 25%
+    return $this->biayaPendaftaranDasar * 1.25;
     }
 
     public function tampilkanInfoJalur() {

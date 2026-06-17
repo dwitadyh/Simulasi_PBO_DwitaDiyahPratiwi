@@ -25,7 +25,8 @@ class PendaftaranReguler extends Pendaftaran {
 
     // Implementasi wajib dari abstract method induk
     public function hitungTotalBiaya() {
-        return $this->biayaPendaftaranDasar; // Dasar reguler tanpa tambahan/potongan
+    // Tarif standar murni tanpa biaya tambahan
+    return $this->biayaPendaftaranDasar;
     }
 
     public function tampilkanInfoJalur() {

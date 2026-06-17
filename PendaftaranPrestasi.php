@@ -24,7 +24,8 @@ class PendaftaranPrestasi extends Pendaftaran {
 
     // Implementasi wajib dari abstract method induk
     public function hitungTotalBiaya() {
-        return $this->biayaPendaftaranDasar; // Nanti bisa dikurangi potongan prestasi di Tahap Polimorfisme
+    // Mendapat potongan/insentif apresiasi prestasi sebesar Rp50.000
+    return $this->biayaPendaftaranDasar - 50000;
     }
 
     public function tampilkanInfoJalur() {
