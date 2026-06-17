@@ -5,7 +5,7 @@ $host = "localhost";
 $username = "root";
 $password = ""; // Kosongkan jika menggunakan XAMPP bawaan
 // Sesuaikan dengan nama database Anda dari Tahap 1
-$database = "DB_SIMULASI_PBO_KELAS_NamaLengkap"; 
+$database = "db_simulasi_pbo_ti1c_dwitadiyahpratiwi"; 
 
 try {
     // Menggunakan PDO untuk koneksi database berorientasi objek
